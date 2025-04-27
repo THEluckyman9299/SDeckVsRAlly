@@ -4,105 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Deck OLED vs ROG Ally Z1E</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('https://images.unsplash.com/photo-1533134486753-c833f0ed4866?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBzYW5kfGVufDB8fDB8fHww') no-repeat center center fixed;
+      padding: 0;
+      background-image: url('https://images.unsplash.com/photo-1533134486753-c833f0ed4866?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBzYW5kfGVufDB8fDB8fHww');
       background-size: cover;
+      background-position: center;
+      font-family: 'Arial', sans-serif;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
     }
-
-    .heading {
-      text-align: center;
+    h1 {
+      font-family: 'Orbitron', sans-serif;
       font-size: 3em;
-      margin-top: 40px;
       color: #00ffe5;
       text-shadow: 0 0 10px #00ffe5, 0 0 20px #00ffe5;
+      margin-bottom: 20px;
+      text-align: center;
     }
-
-    .box-link {
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      justify-content: center;
-      margin-top: 40px;
-    }
-
-    .content-box {
-      background: rgba(255, 255, 255, 0.7);
-      padding: 40px;
+    .main-box {
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(15px);
+      padding: 30px;
+      border-radius: 20px;
       width: 80%;
-      max-width: 800px;
-      border-radius: 15px;
-      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-      backdrop-filter: blur(8px);
+      max-width: 900px;
+      text-align: center;
       transition: transform 0.3s ease, background 0.3s ease;
-      cursor: pointer;
+      color: #fff;
+      font-size: 1.1em;
+      margin-bottom: 30px;
     }
-
-    .content-box:hover {
-      transform: scale(1.05);
-      background: rgba(255, 255, 255, 0.85);
+    .main-box:hover {
+      transform: scale(1.02);
+      background: rgba(255, 255, 255, 0.25);
     }
-
-    .content-box p {
-      font-size: 1.2em;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    .bottom-image {
-      display: flex;
-      justify-content: center;
-      margin-top: 40px;
-      margin-bottom: 60px;
-    }
-
-    .bottom-image img {
-      max-width: 90%;
+    .clickable-image {
+      width: 300px;
       height: auto;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      border-radius: 15px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .clickable-image:hover {
+      transform: scale(1.05);
+    }
+    .click-text {
+      margin-top: 10px;
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffe5;
+      font-size: 1.2em;
+      text-shadow: 0 0 5px #00ffe5, 0 0 10px #00ffe5;
+      text-align: center;
     }
   </style>
 </head>
-
 <body>
-  <div class="heading">Deck OLED vs ROG Ally Z1E</div>
 
-  <a href="details.html" class="box-link">
-    <div class="content-box">
-      <p><strong>Rog Ally's advantages compared to deck OLED:</strong><br>
-      - Z1E often delivers a 5-10% performance boost...<br>
-      - Windows compatibility with many softwares such as editing softwares and Microsoft exclusives<br>
-      - 1080p, 120hz screen adjustable to 720p<br>
-      - Speakers have slightly more bass</p>
+  <h1>Deck OLED vs ROG Ally Z1E</h1>
 
-      <p><strong>Steamdeck OLED advantages compared to ROG Ally z1e:</strong><br>
-      - Runs <em>Native</em> SteamOS<br>
-      - Track/touchpads with haptic feedback<br>
-      - User friendly<br>
-      - More comfortable<br>
-      - Much more customisable<br>
-      ...etc</p>
+  <div class="main-box">
+    <p><strong>Rog Ally's advantages compared to Deck OLED:</strong></p>
+    <p>Z1E often delivers a 5-10% performance boost (can be even less powerful than the deck in certain scenarios)</p>
+    <p>Windows compatibility with many softwares such as editing softwares and Microsoft exclusives</p>
+    <p>1080p, 120hz screen adjustable to 720p</p>
+    <p>Speakers have slightly more bass</p>
+    <p><strong>Steamdeck OLED advantages compared to ROG Ally z1e:</strong></p>
+    <p>Runs Native SteamOS, Trackpads, User friendly, Better battery, Emulation king, OLED screen, Plugins, and more</p>
+    <p><strong>Disadvantages of ROG Ally z1e:</strong></p>
+    <p>Windows issues, blue screens, constant updates, SD card slot burns, driver issues, bad battery, etc</p>
+    <p><strong>Disadvantages of Steamdeck OLED:</strong></p>
+    <p>Less compatible with Windows-only applications, lower screen resolution compared to Ally, static on wired headphones, etc</p>
+    <p><strong>Overall:</strong></p>
+    <p>It really just depends on your choice! 🎯</p>
+  </div>
 
-      <p><strong>Disadvantages of ROG Ally z1e compared to Deck OLED:</strong><br>
-      - Windows isn't always great<br>
-      - Constant blue screens and crashes<br>
-      - Armoury crate updates... etc</p>
-
-      <p><strong>DECK OLED Disadvantages compared to ROG ally z1e:</strong><br>
-      - Compatibility for windows-only software<br>
-      - Less powerful<br>
-      - Static on wired headphones... etc</p>
-
-      <p><strong>Overall:</strong><br>
-      It really just depends on your choice. Steam Deck = Steam games. Ally = Roblox, Minecraft, etc. Emulation = Steam Deck!</p>
-    </div>
+  <!-- CLICKABLE IMAGE -->
+  <a href="details.html">
+    <img class="clickable-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ruDXg5pz-yPX4VNGl1YX8l1833Osoc_T498jntKqoK9Qsm_UacwjtD9X&s=10" alt="Click to go to next page">
   </a>
 
-  <div class="bottom-image">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ruDXg5pz-yPX4VNGl1YX8l1833Osoc_T498jntKqoK9Qsm_UacwjtD9X&s=10" alt="Deck OLED vs ROG Ally">
+  <!-- NEON TEXT -->
+  <div class="click-text">
+    Click the image for next page and opinions!
   </div>
+
 </body>
 </html>
